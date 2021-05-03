@@ -1,0 +1,1497 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*PHOTOS*/ 
+
+.minivan{
+    display:flex ;  
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: -1;
+    
+}
+
+    .minivan img{
+       border-radius: 70% 0 0 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.semi1{
+    position: absolute;
+    left: 65%;
+    top: 0px;
+    z-index: -1;
+}    
+
+.circle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 49%;
+    top: 75.5%;
+}
+       
+.semi2{
+    position: absolute;
+    left: 94.4%;
+    top: 64%;
+}
+
+.waterfall{
+    position: absolute;
+    left: -1.5%;
+    top: 78%;
+    z-index: -1;
+}
+    .waterfall img  {
+        border-radius: 0 0 70% 0;
+        width: 100%;
+        height: 100%;  
+    }
+
+.maps img{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 23%;
+    top: 38%;
+}
+
+      /*COMPONENTS SECTION 1-1*/
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #1F1F1F;;
+}
+
+.header{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 90px;
+    top: 0px;    
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    width: 8%;
+    top: 25%;
+    left: 11%;
+
+}
+
+    .logo a{
+        text-decoration: none;
+        color: #1F1F1F;
+        font-size: 20px;
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    height: 9%;
+    right: 12%;
+   }
+
+    nav{
+        display: flex;
+        position: static;
+        
+    }
+
+        nav li{
+            display: inline-block;
+            flex-grow: 0;
+            margin: 0px 20px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: #1F1F1F;
+            font-size: 18px;
+        }
+
+.buttons{
+    position: static;   
+}
+
+        .first , .second{
+            font-size: 14px;
+            border: 1px solid #F36888;
+            box-sizing: border-box;
+            border-radius: 5px;
+            padding: 7px 14px;
+            margin: 0 10px;
+            background-color: transparent;
+        }
+
+        .second{
+            background-color: #F36888;
+        }
+
+.slogan{
+         display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 24%;
+        height: 10%;
+        left: 11%;
+        top: 29%;
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .singup{
+        margin-top: 15px;   
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    input{
+        font-size: 15px;
+        padding: 14px;
+        border: 0;
+        outline: none;
+        border-bottom: 1px solid #F36888;
+    }
+
+    .suscribe{
+        font-size: 17px;
+        width: 120px;
+        height: 50px;
+        border: 1px solid  #F36888;
+        border-radius: 22px;
+        background-color:  #F36888;
+        color: #fff;
+    }
+    
+    /*COMPONENTS SECTION 1-2*/
+
+.whatll-we-offer{
+    display: flex;
+    height: auto;
+    width: auto; 
+    left: 56%;
+    top: 116%;
+    position: absolute;
+}
+
+    .whatll-we-offer h2{
+        display: inline;
+        align-items: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .articles-1st-sec{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        width: 59%;
+        height: 30%;
+        left: 18%;
+        top: 141%;
+    }
+
+        .inspiration , .shared-exp , .tailored-travels{
+            width: 29%; 
+            height: 79%; 
+            background: #FFFFFF;
+            box-shadow: 0px 15px 30px rgba(83, 83, 83, 0.15);
+        }
+
+            .inspiration h3{
+                position: absolute;
+                left:  8.9%;
+                top: 17%;
+                font-size: 24px;
+                line-height: 24px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .shared-exp h3{
+                position: absolute;
+                left: 39.9%;
+                top: 17%;
+                font-size: 24px;
+                line-height: 24px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .tailored-travels h3{
+                position: absolute;
+                left: 76.9%;
+                top: 17%;
+                font-size: 24px;
+                line-height: 24px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .inspiration p{
+                position: absolute;
+                font-size: 16px;
+                line-height: 24px;
+                left:  5%;
+                top:  32%;
+                width:  20%;
+                height: 29%;
+                margin-bottom: 30px;
+            }
+
+            .shared-exp p{
+                position: absolute;
+                font-size: 16px;
+                line-height: 24px;
+                left:  39%;
+                top:  32%;
+                width:  20%;
+                height: 29%;
+                margin-bottom: 30px;
+            }
+
+            .tailored-travels p{
+                position: absolute;
+                font-size: 16px;
+                line-height: 24px;
+                left:  76%;
+                top:  32%;
+                width:  20%;
+                height: 29%;
+                margin-bottom: 30px;
+            }
+
+            .learn{
+                position: absolute;
+                width:  10%;
+                height: 9%;
+                left:8%;
+                top: 70%;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                margin-bottom: 30px;
+
+            }
+
+            .learn1{
+                position: absolute;
+                width:  10%;
+                height: 9%;
+                left:43%;
+                top: 70%;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                margin-bottom: 30px;  
+            }
+
+            .learn2{
+                position: absolute;
+                width:  10%;
+                height: 9%;
+                left:79%;
+                top: 70%;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                margin-bottom: 30px;  
+            }
+
+
+          /*COMPONENTS SECTION 2-1*/   
+
+.map{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 168%;
+    margin-top: 75px;
+    background: linear-gradient(
+    137.21deg, #754EA0 5.4%, #EE2750 75.09%);
+}
+
+    .map h2{
+        position: absolute;
+        width: 54%;
+        height: 17%;
+        left: 22%;
+        top: 7%;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .map button{
+        display: flex;
+        padding: 9px 15px;
+        position: absolute;
+        width: 6%;
+        height: 5%;
+        left: 45%;
+        top: 22%;
+        background: #00B4D8;
+        border-radius: 17px;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+.map-sticker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+    .one{
+        position: absolute;
+        width: 99px;
+        height: 120px;
+        left: 34%;
+        top: 71%;
+        background: #FFFFFF;
+        border-radius: 5px;
+}
+
+    .two{
+        position: absolute;
+        width: 99px;
+        height: 120px;
+        left:29%;
+        top: 46%;
+        background: #FFFFFF;
+        border-radius: 5px;
+} 
+    .three{
+        position: absolute;
+        width: 99px;
+        height: 120px;
+        left: 44%;
+        top: 41%;
+        background: #FFFFFF;
+        border-radius: 5px;
+}
+    .four{
+        position: absolute;
+        width: 99px;
+        height: 120px;
+        left: 56%;
+        top: 46%;
+        background: #FFFFFF;
+        border-radius: 5px;
+}    
+    .five{
+        position: absolute;
+        width: 99px;
+        height: 120px;
+        left: 63%;
+        top: 64%;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+                .image{
+                border-radius: 62%;
+                margin: 9px 22px 0;
+            }
+
+                .name{
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #000000;
+                }
+       
+                .country{
+                    font-size: 13px;
+                    text-align: center;
+                    color: #000000;
+                    
+                }
+                
+.random{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 275%;
+}
+    
+    .our-blog h2{
+        position: absolute;
+        left: 45%;
+        top: 7%;
+        font-size: 50px;
+        display: flex;
+    }
+
+    .our-blog p{
+        position: absolute;
+        width: 29%;
+        height: 10%;
+        left: 36%;
+        top: 14%;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+    }
+
+.big-picture{
+    display: flex;
+    position: absolute;
+    width:35.5%;
+    left: 11%;
+    top: 27%;
+}
+    .big-picture img{
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .the-best h3{
+        font-size: 24px;
+        margin-top: 5px;
+        display: flex;
+        align-items: center
+    }
+
+    .the-best p{
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+.first-small{
+    display: flex;
+    position: absolute;
+    width: 20.5%;
+    left: 51%;
+    top: 27%;
+}
+    .first-small img{
+        border-radius: 20px;
+     }
+
+     .first-small h3{
+        position: absolute;
+        width: 92%;
+        height: 43px;
+        left: 31%;
+        top: 17%;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+     }
+
+     .first-small p{
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        height: 15%;
+        left: 31%;
+        top: 61%;
+     }
+
+.second-small{
+    display: flex;
+    position: absolute;
+    width: 20.5%;
+    left: 51%;
+    top: 45%;
+}
+
+    .second-small img{
+        border-radius: 20px;
+    }
+
+    .second-small h3{
+        position: absolute;
+        width: 92%;
+        height: 43px;
+        left: 31%;
+        top: 17%;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .second-small p{
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        height: 15%;
+        left: 31%;
+        top: 61%;
+    }
+
+    .third-small{
+        display: flex;
+        position: absolute;
+        width: 20.5%;
+        left: 51%;
+        top: 65%;
+    }
+    
+        .third-small img{
+            border-radius: 20px;
+        }
+    
+        .third-small h3{
+            position: absolute;
+            width: 92%;
+            height: 43px;
+            left: 31%;
+            top: 17%;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+    
+        .third-small p{
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            height: 15%;
+            left: 31%;
+            top: 61%;
+        }
+
+
+.what-u-see{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 364%; 
+}     
+
+    .what-u-see h2{
+        font-size: 44px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 37%;
+        top: 8%;
+    }
+
+    .what-u-see p{
+        position: absolute;
+        width: 26%;
+        left: 34%;
+        top: 15%;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .what-u-see span{
+        position: absolute;
+        width: 8%;
+        left: 36%;
+        top: 24%;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+.input1{
+    position: absolute;
+    top: 27%;
+    left: 37%
+}
+
+
+.btn-subscribe{
+    font-size: 17px;
+    width: 107px;
+    height: 40px;
+    border: 1px solid #F36888;
+    border-radius: 22px;
+    background-color: #F36888;
+    color: #fff;
+    position: absolute;
+    top: 28%;
+    left: 49%;
+}
+
+.line{
+    border-bottom: 1px solid #E5E5E5;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 3px;
+    top: 403%;
+}
+
+
+.logo-footer{
+    position: absolute;
+    left: 10%;
+    top: 424%;  
+}
+
+    .logo-footer a{
+        text-decoration: none;
+        color: #1F1F1F;
+        font-size: 30px; 
+    }
+
+.container-1-footer{
+    display: flex;
+    position: absolute;
+    left: 37%;
+    top: 423%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 225%;
+}  
+
+    .container-1-footer li{
+        list-style: none;
+    }
+
+    .container-1-footer a{
+        text-decoration: none;
+        color: #1F1F1F;
+    }
+
+.container-2-footer{
+    ddisplay: flex;
+    position: absolute;
+    left: 53%;
+    top: 422%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 225%;
+}
+    .container-2-footer li{
+        list-style: none;
+    }
+
+    .container-2-footer a{
+        text-decoration: none;
+        color: #1F1F1F;
+    }
+
+.icons{
+    display: inline;
+    width: 10%;
+    position: absolute;
+    top: 423%;
+    left: 76%;
+}
+
+
+
+.fb i, .tw i, .ig i, .go i{
+    width: 32px;
+    height: 32px;
+    font-size: 35px;
+    margin: 15px; 
+}
+    
+    .icons a {
+        color:black;
+    }
+
+.copyright{
+    position: absolute;
+    left: 42%;
+    top: 457%;
+    text-align: center;
+    color: #959595;
+
+}
+
+/*MEDIA QUERIES*/
+
+@media all and (min-width:768px){
+    .header {
+        height: 77px;
+        width: 116%;
+        top: 0px;
+    }
+    .logo{
+        width: 7%;
+        top: 35%;
+        left: 11%;
+    }
+
+    .logo a {
+        font-size: 13px;
+    }
+
+    .menu{
+        height: 9%;
+        right: -16%;
+    }
+
+    nav li{
+        margin: 0px 2px;
+    }
+
+    nav  a {
+        font-size: 16px;
+    }
+    
+    .first, .second{
+        font-size: 13px;
+        margin: -4px 10px;
+    }
+    
+   .slogan{
+    width: 39%;
+    height: 43%;;
+    left: 8%;
+    top: 11%;
+   }
+
+   h1{
+    font-size: 2em;
+    line-height: 39px;
+    margin-bottom: 16px;
+   }
+
+   .p{
+    font-size: 16px;
+    line-height: 23px;
+   }
+
+   .suscribe{ 
+    width: 78px;
+    height: 46px;
+    border-radius: 7px;
+    margin-top: 7px
+   }
+
+   .minivan{
+    left: 45%;
+    top: -11px;
+   }
+   
+   .minivan img{
+    width: 129%;
+   }
+
+   .waterfall{
+    left: -0.5%;
+    top: 46%;
+   }
+   
+   .waterfall img{
+    width: 73%;
+   }
+
+.semi2{
+    left: 102.4%;
+    top: 35%;   
+}
+
+.whatll-we-offer{
+    left: 70%;
+    top: 82%;
+}
+
+.articles-1st-sec{
+    width: 98%;
+    height: 28%;
+    left: 9%;
+    top: 104%;
+}
+
+.inspiration h3 , .shared-exp h3 , .tailored-travels h3 {
+    font-size: 19px;
+}
+
+
+.inspiration p , .shared-exp p , .tailored-travels p{
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.learn , .learn1 , .learn2{
+    width: 15%;
+    font-size: 15px;
+}
+
+.map{
+    width: 116%;
+    top: 128%;
+} 
+    .map h2{
+        font-size: 20px;
+    }
+
+    .map button{
+        width: 11%;
+        font-size: 17px;
+        top: 23%;
+    }
+
+.random {
+    top: 235%;  
+}   
+
+.our-blog p{
+    width: 49%;
+    left: 33%;
+}
+
+.first-small {
+    left: 10%;
+    top: 94%;
+}
+
+.second-small {
+    left: 50%;
+    top: 94%;
+}  
+
+.third-small {
+    left: 90%;
+    top: 94%;
+}
+
+.first-small h3 {
+    left: -2%;
+    top: 132%;
+    font-size: 16px;
+}
+        
+.first-small p {
+    font-size: 14px;
+    height: 18%;
+    left: -5%;
+    top: 193%;
+}
+
+.second-small h3 {
+    width: 83%;
+    top: 121%;
+    left: 0%;
+    font-size: 15px;
+}
+
+.second-small p {
+    font-size: 14px;
+    left: -7%;
+    top: 192%;
+
+}
+
+.third-small h3 { 
+    width: 83%;
+    left: 7%;
+    top: 127%;
+    font-size: 15px;
+}
+
+.third-small p {
+    font-size: 14px;
+    left: 0%;
+    top: 192%;
+
+}
+
+.what-u-see {
+    top: 358%;
+}
+.what-u-see h2 {
+    left: 31%;
+}
+
+.what-u-see p {
+    width: 55%;
+    left: 29%;
+    
+}
+.what-u-see span {
+    left: 32%;
+    top: 26%;
+    width: 23%;
+    
+}
+
+.input1 {
+    top: 29%;
+    left: 31%;
+}
+
+.btn-subscribe {
+    top: 30%;
+    left: 65%;
+}
+
+.line {
+    width: 115%;
+}
+
+.logo-footer {
+    top: 410%;
+    left: 20%;
+}
+
+.container-1-footer {
+    left: 20%;
+    top: 424%;
+}
+
+.container-2-footer {
+    left: 60%;
+    top: 424%;
+}
+
+.icons {
+    top: 423%;
+    left: 89%;
+}
+
+}
+
+@media all and (min-width:1024px){
+
+nav a {
+  font-size: 19px;
+  margin: 5px;
+}
+
+.logo a {
+    font-size: 20px;
+}
+
+.waterfall {
+    top: 61.2%;
+}
+
+.map h2 {
+    left: 26%;
+    top: 6%;
+}
+
+.map button {
+    width: 9%;
+    font-size: 19px;
+    top: 21%;
+    left: 47%;
+}
+
+.big-picture {
+    left: 24%;
+}
+.what-u-see h2 {
+    left: 35%;
+}
+.what-u-see p {
+    width: 55%;
+    left: 28%;
+}
+.input1 {
+    top: 29%;
+    left: 41%;
+}
+.btn-subscribe {
+    top: 30%;
+    left: 63%;
+}
+.what-u-see span {
+    left: 42%;
+    top: 25%;
+    width: 14%;
+}
+
+
+}
+
+@media all and (min-width:1140px){
+.logo a {
+    font-size: 25px;
+}
+nav a {
+    font-size: 25px;
+    margin: 6px;
+}
+
+.first, .second {
+    font-size: 18px;
+    margin: 0 10px;
+}
+.minivan {
+    left: 48%;
+    top: -9px;
+}
+
+.semi1 {
+    left: 83%;
+}
+.semi2 {
+    left: 108.4%;
+    top: 71%;
+}
+
+.slogan {
+    width: 41%;
+    height: 27%;
+    left: 6%;
+    top: 20%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 22px;
+}
+
+.suscribe {
+    width: 87px;
+    height: 46px;
+    border-radius: 8px;
+    margin-top: 8px;
+    position: absolute;
+    left: 41%;
+    top: 75%;
+}
+
+.waterfall {
+    top: 82.2%;
+}
+
+.circle {
+    left: 48%;
+    top: 80.5%;
+}
+
+.whatll-we-offer {
+    left: 64%;
+    top: 90%;
+    width: 36%;
+}
+
+.articles-1st-sec {
+    width: 98%;
+    height: 31%;
+    left: 15%;
+    top: 108%;
+}
+
+.inspiration h3, .shared-exp h3, .tailored-travels h3 {
+    font-size: 21px;
+    text-align: center;
+}
+
+.inspiration p, .shared-exp p, .tailored-travels p {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.learn, .learn1, .learn2 {
+    width: 10%;
+    font-size: 18px;
+}
+
+.map {
+    width: 115.8%;
+    top: 136%;
+}
+
+.map h2 {
+    font-size: 22px;
+}
+
+.map button {
+    width: 7%;
+    font-size: 22px;
+    top: 22%;
+    left: 50%;
+}
+
+.random {
+    top: 241%;
+}
+
+.our-blog h2 {
+    left: 49%;
+    top: 8%;
+    font-size: 52px;  
+}
+
+.our-blog p {
+    width: 49%;
+    left: 33%;
+    top: 16%;
+    font-size: 20px;
+}
+
+.big-picture {
+    left: 8%;
+}
+
+.first-small {
+    left: 67%;
+    top: 27%;
+}
+
+.first-small h3 {
+    left: 42%;
+    top: 13%;
+    font-size: 18px;
+    width: 69%;
+}
+
+.first-small p {
+    font-size: 14px;
+    height: 17%;
+    left: 43%;
+    top: 70%;
+}
+
+.second-small {
+    left: 67%;
+    top: 46%;
+}
+
+.second-small h3 {
+    width: 62%;
+    top: 18%;
+    left: 43%;
+    font-size: 18px;
+}
+
+.second-small p {
+    font-size: 14px;
+    left: 43%;
+    top: 74%;
+}
+
+.third-small {
+    left: 67%;
+    top: 67%;
+}
+
+.third-small h3 {
+    width: 55%;
+    left: 43%;
+    top: 18%;
+    font-size: 18px;
+}
+
+.third-small p {
+    font-size: 14px;
+    left: 41%;
+    top: 87%;
+}
+
+.what-u-see h2 {
+    left: 41%;
+    top: -17%;
+}
+
+.what-u-see p {
+    width: 45%;
+    left: 32%;
+    top: -8%;
+    font-size: 18px;
+}
+
+.what-u-see span {
+    left: 40%;
+    top: 6%;
+    width: 13%;
+    font-size: 15px;
+}
+
+.input1 {
+    top: 11%;
+    left: 39%;
+}
+
+.btn-subscribe {
+    top: 12%;
+    left: 56%;
+}
+
+.container-2-footer {
+    left: 67%;
+    top: 424%;
+}
+
+.container-1-footer {
+    left: 38%;
+    top: 423%;
+}
+
+.logo-footer {
+    top: 424%;
+    left: 12%;
+}
+
+.copyright {
+    left: 48%;
+    top: 452%;
+}
+
+}
+
+@media all and (min-width:1920px){
+    .logo {
+        width: 8%;
+        top: 38%;
+        left: 13%;
+    }
+
+    .menu {
+        height: 8%;
+        right: 5%;
+    }
+
+    .semi1 {
+        left: 70%;
+    }
+
+    .minivan {
+        left: 50%;
+        top: -10px;
+    }
+
+    .circle {
+        left: 49.3%;
+        top: 77.5%;
+    }
+
+    .slogan {
+        width: 32%;
+        height: 21%;
+        left: 8%;
+        top: 22%;
+    }
+
+    h1 {
+        font-size: 53px;
+        margin-bottom: 29px;
+        line-height: 59px;
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .singup {
+        margin-top: 18px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .suscribe {
+        top: 128%;
+    }
+
+    .waterfall {
+        top: 79.2%;
+    }
+
+    .waterfall img {
+        width: 100%;
+    }
+
+    .semi2 {
+        left: 94.4%;
+        top: 67%;
+    }
+
+    .articles-1st-sec {
+        width: 77%;
+        height: 32%;
+        left: 17%;
+        top: 107%;
+    }
+
+    .tailored-travels h3{
+        font-size: 25px;
+        left: 78.9%;
+        }
+        
+         .shared-exp h3 {
+            font-size: 24px;
+            left: 40.9%;
+        }
+
+        .inspiration h3 {
+            font-size: 27px;
+            left: 9.9%;
+        }
+
+        .inspiration p, .shared-exp p, .tailored-travels p {
+            font-size: 19px;
+            line-height: 31px;
+        }
+
+        .learn, .learn1, .learn2 {
+            width: 10%;
+            font-size: 19px;
+        }
+
+        .map {
+            width: 100.8%;
+            top: 135%;
+        }
+
+        .map h2 {
+            font-size: 33px;
+            left: 23%;
+        }
+
+        .map button {
+            width: 7%;
+            font-size: 28px;
+            top: 21%;
+            left: 46%;
+        }
+
+        .our-blog h2 {
+            left: 46%;
+            top: 7%;
+            font-size: 53px;
+        }
+
+        .our-blog p {
+            width: 39%;
+            left: 33%;
+            top: 12%;
+            font-size: 22px;
+        }
+
+        .big-picture {
+            left: 11%;
+        }
+
+        .big-picture {
+            left: 11%;
+        }
+
+        .first-small {
+            left: 56%;
+            top: 27%;
+        }
+
+        .second-small {
+            left: 56%;
+            top: 46%;
+        }
+
+        .third-small {
+            left: 56%;
+            top: 67%;
+        }
+
+        .what-u-see h2 {
+            left: 39%;
+            top: -24%;
+            font-size: 56px;
+        }
+
+        .what-u-see p {
+            width: 33%;
+            left: 36%;
+            top: -16%;
+            font-size: 20px;
+        }
+
+        .what-u-see span {
+            left: 38%;
+            top: -7%;
+            width: 13%;
+            font-size: 16px;
+        }
+
+        .input1 {
+            top: -4%;
+            left: 38%;
+        }
+
+        .btn-subscribe {
+            top: -4%;
+            left: 51%;
+            width: 117px;
+            height: 48px;
+        }
+
+        .line {
+            width: 115%;
+            top: 369%;
+        }
+
+        .logo-footer {
+            top: 377%;
+            left: 12%;
+            font-size: 34px;
+        }
+
+        .container-1-footer {
+            left: 38%;
+            top: 379%;
+            font-size: 25px;
+        }
+
+        .container-2-footer {
+            left: 65%;
+            top: 379%;
+            font-size: 25px;
+        }
+
+        .icons {
+            top: 379%;
+            left: 86%;
+        }
+
+        .copyright {
+            left: 41%;
+            top: 415%;
+        }
+
+
+    
+}
+   
+    
+
+
+    
